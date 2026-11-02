@@ -1,0 +1,4 @@
+line,units_produced,defects,downtime_minutes,defect_rate_pct
+Line A,2495,46,205,1.8436873747494988
+Line B,2285,69,324,3.019693654266958
+Line C,3120,48,148,1.5384615384615385
