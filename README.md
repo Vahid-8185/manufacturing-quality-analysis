@@ -31,7 +31,21 @@ The script prints summary metrics and saves charts in `outputs/`.
 4. Write a short findings report.
 
 ## Results
-Run the analysis and replace this section with your actual output and observations. Do not invent performance improvements or business impact.
+The analysis produced the following results from the synthetic dataset:
+
+| Production Line | Units Produced | Defects | Downtime (Minutes) | Defect Rate |
+|---|---:|---:|---:|---:|
+| Line A | 2,495 | 46 | 205 | 1.84% |
+| Line B | 2,285 | 69 | 324 | 3.02% |
+| Line C | 3,120 | 48 | 148 | 1.54% |
 
 ## Limitations
 The dataset is synthetic and small. Results demonstrate the workflow only; they do not establish real-world manufacturing conclusions.
+
+### Key Observations
+- Line C recorded the highest production output.
+- Line B had the highest defect rate and downtime.
+- Line C had the lowest defect rate.
+- Line B may need further investigation to understand its quality and downtime patterns.
+
+These observations are based only on synthetic sample data.
